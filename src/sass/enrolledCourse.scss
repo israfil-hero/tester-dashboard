@@ -1,0 +1,26 @@
+@import './Variable.scss';
+.course_container{
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 40px 0px;
+    max-height: 240px;
+    // min-height: 420px;
+    
+    .course_title{
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .authorName{
+        color: $author;
+        font-weight: bold;
+    }
+    .price{
+        color: $takaColor;
+        font-weight: bold;
+    }
+    .registation_closed{
+        color: $registation_closed; 
+    }
+}

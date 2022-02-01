@@ -1,0 +1,13 @@
+@import './Variable.scss';
+.course_card {
+    .title {
+        font-family: Poppins;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 36px;
+        color: #000000;
+    }
+    .userInfo{
+        color: $userInfo;
+    }
+}

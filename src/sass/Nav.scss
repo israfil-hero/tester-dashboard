@@ -1,0 +1,69 @@
+.navbar_container {
+    background: $BackgroundColor;
+    font-family: roboto;
+
+    nav .logo_img {
+        width: 250px;
+        height: 35px;
+
+    }
+
+    .profile_icon {
+        width: 75px;
+        height: 60px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    ul li {
+        margin-left: 20px;
+        .profile_btn {
+            background: $buttonColor;
+            border-radius: 50px;
+            padding: 8px 25px;
+            border: none;
+        }
+
+    }
+    ul li a{
+        font-size: 18px;
+    }
+
+    .gem_section {
+        background-color: $whiteColor;
+        width: 70px;
+        height: 35px;
+        border-radius: 20px;
+
+        .gem {
+            height: 20px;
+        }
+
+        .gem_count {
+            font-size: 22px;
+            color: $blueColor;
+            font-weight: bold;
+        }
+
+    }
+
+
+    .dropdown-menu {
+        min-width: 280px;
+    }
+
+    .user_name{
+        font-family: serif;
+        font-weight: bold;
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
+    }
+
+  
+
+ 
+    
+
+
+}

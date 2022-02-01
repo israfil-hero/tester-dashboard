@@ -1,0 +1,48 @@
+@import './Variable.scss';
+
+.footer_container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: $footerBackgroundColor;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 17px;
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        margin-top: 20px;
+        color: $whiteColor;
+        font-style: normal;
+  
+
+        .footer_icon {
+            height: 20px;
+            width: 24px;
+        }
+    }
+
+    .playstoreIcon {
+        width: 200px;
+        margin-top: 30px;
+    }
+
+    .social_icons{
+        // background-color: $whiteColor ;
+        color: $whiteColor ;
+        font-size: 35px ;
+        padding: 10px 10px 10px 0px;
+    }
+
+
+    .footer_Text{
+        color: $footerTitle;
+        font-family: Poppins;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+}
