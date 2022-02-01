@@ -5,7 +5,9 @@ import notification from '../../asset/images/icons/notification.png';
 import gem from '../../asset/images/icons/gem.svg';
 import cart from '../../asset/images/icons/shopping-cart.png';
 
-const Nav = ({ user }) => {
+const Nav = ({ user , gems}) => {
+
+
    
 
     return (
@@ -31,7 +33,7 @@ const Nav = ({ user }) => {
                         <li className="nav-item">
                             <div className="d-flex justify-content-center align-items-center gem_section">
                                 <img src={gem} alt="profile" className="gem" />
-                                <span className="ml-2 gem_count">0</span>
+                                <span className="ml-2 gem_count">{gems}</span>
                             </div>
                         </li>
 

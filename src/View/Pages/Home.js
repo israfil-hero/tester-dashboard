@@ -34,11 +34,29 @@ const Home = () => {
         .then(data => setLoggedInUser(data))
     }, [])
 
+    // gem 
+
+
+    const gemFetcher = () => {
+        const data = axios.get("https://jsdude.com/api/gem/user-gem/", {
+            headers: {
+                Authorization: auth
+            }
+        })
+        return data
+
+    }
+
+    const { data: gems } = useQuery(['gem'], gemFetcher);
+console.log(gems);
+
+
 
     return (
         <div>
             <Nav
                 user={loggedInUser?.data}
+                gems={gems?.data?.data?.totalGem}
             />
             <Courses
                 allCourses={allCourses}
